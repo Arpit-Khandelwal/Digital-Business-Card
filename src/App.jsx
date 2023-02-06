@@ -7,6 +7,10 @@ import './App.css'
 
 export default function App() {
 
+  const handleEmailClick = () => {
+    window.open("mailto:arpit.khandelwal@gmail.com", "_blank");
+  };
+
   return (
     <div className="App">
       <img src={reactLogo} alt="Profile image" />
@@ -15,7 +19,8 @@ export default function App() {
         <h2>Arpit Khandelwal</h2>
         <h3>Frontend Developer</h3>
         <h4>arpitkhandelwal.com</h4>
-        <button><FontAwesomeIcon icon={faEnvelope} />Email</button>
+        <a href="mailto:arpit.khandelwal2002@gmail.com"><FontAwesomeIcon icon={faEnvelope} />Email</a>
+
 
 
         <div className='About'>

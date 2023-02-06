@@ -66,7 +66,7 @@ main > h4{
     color: #F5F5F5;
 }
 
-button{
+a{
   box-sizing: border-box;
   
     /* Auto layout */
@@ -92,7 +92,20 @@ button{
   
     box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
     border-radius: 6px;
+    font-family: 'Inter';
+      font-style: normal;
+      font-weight: 600;
+      font-size: 15px;
+      line-height: 16px;
+      /* identical to box height, or 114% */
+    
+      /* gray/700 */
+    
+      color: #374151;
+    
+      text-decoration: none;
 }
+
 
 div > h3{
   font-family: 'Inter';
